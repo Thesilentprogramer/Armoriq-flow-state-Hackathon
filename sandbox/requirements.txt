@@ -1,0 +1,4 @@
+# The MCP server uses the Python standard library.
+# The proof runner imports armoriq_sdk only when ARMORIQ_API_KEY is set.
+# Install the ArmorIQ SDK from the platform docs before the live allow/block proof:
+#   pip install armoriq-sdk
