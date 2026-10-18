@@ -222,7 +222,13 @@ export function PolicyBuilder() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-6 px-4 py-8 md:px-8">
       <header className="flex flex-col gap-2">
-        <p className="text-sm text-muted-foreground">ArmorIQ Flow State</p>
+        <p className="text-sm text-muted-foreground">
+          <a href="/" className="underline-offset-2 hover:underline">
+            ← Landing
+          </a>
+          {" · "}
+          ArmorIQ Flow State
+        </p>
         <h1 className="text-3xl font-semibold tracking-tight">Voice Policy Builder</h1>
         <p className="max-w-2xl text-muted-foreground">
           Speak a rule. Hear it back. Say confirm. The support agent is then governed by ArmorIQ, not by this page.
