@@ -1,1 +1,1 @@
-PLACEHOLDER
+@/tmp/iso-kit-content.txt
