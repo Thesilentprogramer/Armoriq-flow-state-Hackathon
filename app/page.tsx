@@ -1,5 +1,5 @@
-import { PolicyBuilder } from "@/components/policy-builder";
+import { LandingPage } from "@/components/landing/landing-page";
 
 export default function Home() {
-  return <PolicyBuilder />;
+  return <LandingPage />;
 }

@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 4317 -H 0.0.0.0",
+    "build:machine": "node scripts/build-voice-machine.mjs && node scripts/emit-voice-machine-ts.mjs && node scripts/build-proof-machine.mjs",
     "check:policy": "tsx lib/policy/check.ts",
     "build": "next build",
     "start": "next start",
